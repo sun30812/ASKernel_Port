@@ -97,7 +97,7 @@ BUILD_NOW()
 	fi;
 
 	# build Image
-	time make ARCH=arm64 CROSS_COMPILE=../android-toolchain/bin/aarch64-linux-gnu- Image.gz-dtb -j ${NR_CPUS}
+	time make ARCH=arm64 CROSS_COMPILE=../android-toolchain/bin/aarch64-linux-android- Image.gz-dtb -j ${NR_CPUS}
 
 	stat "$KERNELDIR"/arch/arm64/boot/Image || exit 1;
 
