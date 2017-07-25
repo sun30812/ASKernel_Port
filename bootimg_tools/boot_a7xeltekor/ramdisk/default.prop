@@ -31,6 +31,6 @@ debug.atrace.tags.enableflags=0
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Wed May 17 17:24:52 KST 2017
-ro.bootimage.build.date.utc=1495009492
-ro.bootimage.build.fingerprint=samsung/a7xeltektt/a7xeltektt:7.0/NRD90M/A710KKKU1CQE5:user/test-keys
+ro.bootimage.build.date=Tue Jul 25 14:04:42 UTC 2017
+ro.bootimage.build.date.utc=1500991482
+ro.bootimage.build.fingerprint=samsung/a7xeltexx/a7xelte:7.0/NRD90M/A710FXXU2CQE4:user/test-keys
